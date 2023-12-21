@@ -154,7 +154,7 @@ de forma aleatoria o manual, y redirige al método de clase oportuno
             return self.modo_colocacion()
 
         if int(eleccion) == 1:
-            print(f'\n Has elegido colocar tus barcos de forma aleatoria. Así queda tu tablero: \n')
+            print(f'\n Has elegido colocar tus barcos de forma aleatoria. Así queda tu tablero de barcos: \n')
             return self.colocar_barcos_aleatorio()
 
         elif int(eleccion) == 2:
